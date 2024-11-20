@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/png" href="./Assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="head">My Day</h1>
+        <h4 id="date" class="date"></h4>
+    </header>
+        
+    <main>
+       <ol class="task-list" id="result" ondblclick="undo(event)">
+       
+       </ol>
+     
+    </main>
+    </main>
+</body>
+    <footer>
+        <div >
+             <input class="input" value="Add a task" id="input" onkeyup="tasks(event)" onmouseenter="updat(event)" title="Add a task"/> 
+        </div>  
+    </footer>
+<script src="index.js"></script>
+
+</html>
+
+
+
+  
+
